@@ -1,0 +1,15 @@
+.lead__img {
+  margin: 64px auto 0;
+  width: 100%;
+  object-fit: contain;
+}
+@media screen and (max-width: 1024px) {
+  .lead__img {
+    margin: 5.6vh auto 0;
+  }
+}
+@media screen and (max-width: 320px) {
+  .lead__img {
+    margin: 40px auto 0;
+  }
+}

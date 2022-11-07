@@ -1,0 +1,23 @@
+.cover__cubtitle {
+  margin: 32px 0 0;
+  width: 360px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 122%;
+  text-align: center;
+  z-index: 1;
+}
+@media screen and (max-width: 720px) {
+  .cover__cubtitle {
+    font-size: 2.5vw;
+    max-width: 50vw;
+  }
+}
+@media screen and (max-width: 320px) {
+  .cover__cubtitle {
+    font-size: 14px;
+    max-width: 80vw;
+    margin: 16px 0 0;
+  }
+}

@@ -1,0 +1,15 @@
+.footer__link-div {
+  display: flex;
+  gap: 18px;
+}
+@media screen and (max-width: 720px) {
+  .footer__link-div {
+    gap: 2.5vw;
+  }
+}
+@media screen and (max-width: 400px) {
+  .footer__link-div {
+    flex-direction: column;
+    gap: 32px;
+  }
+}

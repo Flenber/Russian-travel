@@ -1,0 +1,38 @@
+.place__title {
+  margin: 0;
+  grid-area: title;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 106%;
+}
+@media screen and (max-width: 1024px) {
+  .place__title {
+    font-size: 7.2vw;
+  }
+}
+@media screen and (max-width: 768px) {
+  .place__title {
+    font-size: 5.5vw;
+  }
+}
+@media screen and (max-width: 600px) {
+  .place__title {
+    font-size: 7vw;
+  }
+}
+@media screen and (max-width: 500px) {
+  .place__title {
+    font-size: 8.4vw;
+  }
+}
+@media screen and (max-width: 400px) {
+  .place__title {
+    font-size: 10.5vw;
+  }
+}
+@media screen and (max-width: 320px) {
+  .place__title {
+    font-size: 10vw;
+  }
+}
