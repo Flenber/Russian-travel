@@ -1,0 +1,8 @@
+.lang__link {
+  color: #ffffff;
+  margin-left: 18px;
+  color: #ffffff;
+}
+.lang__link:last-child {
+  text-decoration-line: none;
+}

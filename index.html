@@ -11,8 +11,8 @@
     <header class="header">
       <div class="header__logo"></div>
       <div class="lang">
-        <a href="#" class="lang__ru">Ru</a>
-        <a href="#" class="lang__en">En</a>
+        <a href="#" class="lang__link">Ru</a>
+        <a href="#" class="lang__link">En</a>
       </div>
     </header>
     <main class="content">
@@ -37,11 +37,13 @@
           проехала 20 тысяч километров по родной стране. Мы выбрали и описали
           некоторые интересные места, достойные вашего отпуска.
         </p>
-        <p class="intro__list">Часовых поясов 11</p>
-        <p class="intro__list">Объектов природного наследия ЮНЕСКО 12</p>
-        <p class="intro__list">Объектов культурного наследия ЮНЕСКО 16</p>
-        <p class="intro__list">Природных заповедников 105</p>
-        <p class="intro__list">Аэропортов 241</p>
+        <ul class="intro__list">
+          <li>Часовых поясов 11</li>
+          <li>Объектов природного наследия ЮНЕСКО 12</li>
+          <li>Объектов культурного наследия ЮНЕСКО 16</li>
+          <li>Природных заповедников 105</li>
+          <li>Аэропортов 241</li>
+        </ul>
       </section>
       <section class="photo-grid">
         <img
@@ -95,7 +97,7 @@
       </section>
       <section class="places">
         <div class="place">
-          <h3 class="place__title">Куршская коса</h3>
+          <h2 class="place__title">Куршская коса</h2>
           <div class="place__website">
             <a target="_blank" href="http://park-kosa.ru" class="place__link"
               >park-kosa.ru</a
@@ -121,7 +123,7 @@
           </div>
         </div>
         <div class="place">
-          <h3 class="place__title">Кольский</h3>
+          <h2 class="place__title">Кольский</h2>
           <div class="place__website">
             <a
               target="_blank"
@@ -153,7 +155,7 @@
           </div>
         </div>
         <div class="place">
-          <h3 class="place__title">Алтай</h3>
+          <h2 class="place__title">Алтай</h2>
           <div class="place__website">
             <a
               target="_blank"
@@ -182,7 +184,7 @@
           </div>
         </div>
         <div class="place">
-          <h3 class="place__title">Зимний Байкал</h3>
+          <h2 class="place__title">Зимний Байкал</h2>
           <div class="place__website">
             <a
               target="_blank"
@@ -212,7 +214,7 @@
           </div>
         </div>
         <div class="place">
-          <h3 class="place__title">Карелия</h3>
+          <h2 class="place__title">Карелия</h2>
           <div class="place__website">
             <a target="_blank" href="http://vodlozero.ru" class="place__link"
               >http://vodlozero.ru/</a
@@ -244,7 +246,7 @@
           href="https://stampsy.com/na-elektrichkakh-do-baikala"
           class="cover__overlay"
         >
-          <h3 class="cover__title">До Байкала «на собаках»</h3>
+          <h2 class="cover__title">До Байкала «на собаках»</h2>
           <p class="cover__cubtitle">
             По мотивам учебной темы о Транссибе — путешествие от столицы до
             Байкала на электричках.
@@ -252,7 +254,7 @@
         </a>
       </section>
       <footer class="footer">
-        <div class="footer__link-div">
+        <nav class="footer__link-div">
           <a target="_blank" href="https://yandex.ru/maps" class="footer__link"
             >Карты</a
           >
@@ -274,7 +276,7 @@
           <a href="https://travel.yandex.ru" class="footer__link"
             >Путешествия</a
           >
-        </div>
+        </nav>
         <p class="footer__copyright">© 2022. Эдуард Полющенко</p>
       </footer>
     </main>
