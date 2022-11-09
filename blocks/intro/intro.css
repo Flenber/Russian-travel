@@ -1,11 +1,11 @@
 .intro {
   margin: 0 auto;
   padding: 0;
-  max-width: 984px;
+  max-width: 77vw;
 }
 @media screen and (max-width: 1024px) {
   .intro {
-    max-width: 93vw;
+    max-width: 90.6vw;
   }
 }
 @media screen and (max-width: 768px) {

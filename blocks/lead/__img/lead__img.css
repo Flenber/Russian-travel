@@ -5,7 +5,12 @@
 }
 @media screen and (max-width: 1024px) {
   .lead__img {
-    margin: 5.6vh auto 0;
+    margin: 56px auto 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .lead__img {
+    margin: 56px auto 0;
   }
 }
 @media screen and (max-width: 320px) {

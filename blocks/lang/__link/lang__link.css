@@ -1,7 +1,7 @@
 .lang__link {
   color: #ffffff;
-  margin-left: 18px;
 }
-.lang__link:last-child {
-  text-decoration-line: none;
+.lang__link:hover {
+  opacity: 0.6;
+  transition: ease 1s;
 }

@@ -1,14 +1,14 @@
-.footer__link-div {
+.footer__links {
   display: flex;
   gap: 18px;
 }
 @media screen and (max-width: 720px) {
-  .footer__link-div {
+  .footer__links {
     gap: 2.5vw;
   }
 }
 @media screen and (max-width: 400px) {
-  .footer__link-div {
+  .footer__links {
     flex-direction: column;
     gap: 32px;
   }

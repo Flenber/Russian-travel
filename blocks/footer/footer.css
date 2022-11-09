@@ -1,13 +1,13 @@
 .footer {
   margin: 92px auto 24px;
-  max-width: 1184px;
+  max-width: 90vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 @media screen and (max-width: 1024px) {
   .footer {
-    max-width: 93vw;
+    max-width: 90.5vw;
   }
 }
 @media screen and (max-width: 768px) {
