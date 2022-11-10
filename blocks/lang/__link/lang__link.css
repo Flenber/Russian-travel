@@ -1,7 +1,9 @@
 .lang__link {
   color: #ffffff;
+  text-decoration: none;
+  margin-left: 18px;
 }
 .lang__link:hover {
-  opacity: 0.6;
-  transition: ease 1s;
+  opacity: 0.8;
+  transition: ease 0.5s;
 }

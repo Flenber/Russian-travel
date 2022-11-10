@@ -2,7 +2,7 @@
   margin: 80px auto 0 auto;
   display: grid;
   max-width: 984px;
-  grid-template-columns: repeat(auto-fill, minmax(calc(50% - 20px), 1fr));
+  grid-template-columns: 460px 1fr;
   gap: 48px 40px;
   grid-template-areas:
     "title url"
@@ -13,7 +13,8 @@
 }
 @media screen and (max-width: 1024px) {
   .place {
-    max-width: 93vw;
+    max-width: 90.6vw;
+    grid-template-columns: 42.9vw 1fr;
   }
 }
 @media screen and (max-width: 768px) {
@@ -21,11 +22,12 @@
     gap: 48px 28px;
     max-width: 93.5vw;
     margin-top: 73px;
+    grid-template-columns: 44.2vw 1fr;
   }
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 500px) {
   .place {
-    margin: 0;
+    margin: 73px 0 0;
     grid-template-columns: auto;
     grid-template-areas:
       "title"
@@ -37,6 +39,6 @@
 @media screen and (max-width: 320px) {
   .place {
     gap: 32px;
-    margin-top: 50px;
+    margin: 50px 0 0;
   }
 }

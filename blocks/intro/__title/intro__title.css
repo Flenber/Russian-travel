@@ -16,11 +16,6 @@
     font-size: 6.7vw;
   }
 }
-@media screen and (max-width: 600px) {
-  .intro__title {
-    font-size: 9vw;
-  }
-}
 @media screen and (max-width: 550px) {
   .intro__title {
     font-size: 10.3vw;
