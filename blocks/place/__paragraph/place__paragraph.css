@@ -26,6 +26,9 @@
 }
 @media screen and (max-width: 320px) {
   .place__paragraph {
-    margin: 50px 16px 0;
+    margin: 25px 16px 0;
+  }
+  .place__paragraph:first-child {
+    margin: 0 16px 0;
   }
 }
